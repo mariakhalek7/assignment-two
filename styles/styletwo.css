@@ -218,7 +218,7 @@ main{
 
 }
 .number{
-    font-size: 38px;240
+    font-size: 38px;
     font-weight: 800;
    
 
@@ -269,6 +269,13 @@ main{
     gap: 80px;
     padding: 40px 20px;
 }
+
+
+
+
+/* -------footer---------- */
+
+
 .footer-des{
     font-size: 19px;
     font-weight: 400;
@@ -280,6 +287,80 @@ border-radius: 8px;
 margin: 50px 100px;
 padding: 30px 0px 30px 0px;
 
+}
+
+
+/* --------------------------------------------------------
+-----------------------media query-------------------------
+------------------------------------------------------------ */
+
+@media screen and (max-width:576px) {
+    .container-one{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px;
+        
+        
+    }
+    .div-one{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    
+    
+    }
+    .container-two{
+        display: flex;
+    
+        flex-direction: column;
+        
+        
+    }
+    .architect img{
+        width: 300px;
+     
+    }
+    .third-btn{
+     transform: translate(0px);
+     padding: 5px;
+        
+    }
+    .facts{
+        padding: 10px 10px 10px 30px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .company-name{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-des{
+        margin: 0px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .button-primary{
+        margin-left: 120px;
+    }
+    .banner img{
+        width: 350px;
+        height: 280px;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+    }
+    span a {
+        font-size: 25px;
+        
+
+
+    
 }
 
 
