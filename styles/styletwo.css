@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 20px;
+
+    
+ 
+}
+.nav-title{
+    font-size: 30px;
+    font-size: 700;
+}
+span a{
+    font-weight: 500;
+    color: #424242;
+    text-decoration: none;
+    margin-left: 25px;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 90px 20px 90px;
+
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 250px;
+    
+
+    
+    
+}
+.banner img{
+    width:970px;
+   height: 460px;
+}
+.banner-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #131313;
+   
+
+}
+.banner-des{
+    text-align: center;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.button-primary{
+    margin-left: 340px;
+    background: rgb(255, 123, 0);
+    border-radius: 7px;
+    border: none;
+    padding: 10px 24px;
+    width: 150px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+/* -------------------------main css---------------------- */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* -----------------section one----------===== */
+.container-one{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 60px 228px;
+    
+    
+}
+.div-one{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+
+}
+.div-one img{
+    width: 100%;
+    height: 100%;
+}
+.container-one div{
+    flex: 1;
+}
+.button-secondary{
+    
+    background: rgb(255, 123, 0);
+    border-radius: 7px;
+    border: none;
+    padding: 10px 24px;   
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.team-title{
+    font-size: 28px;
+    font-weight:800;
+
+}
+.descriptions{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+/* --------------section two------------------ */
+.container-two{
+    display: flex;
+    margin: 80px 160px;
+    
+    
+    
+    
+}
+.container-two div{
+    flex: 1;
+}
+.architect img{
+    width: 500px;
+ 
+}
+.feature-title{
+    font-size: 30px;
+    font-weight: 700;
+    border-left: 4px solid rgb(255, 123, 0);
+    padding: 10px;
+
+}
+.feature-descrip{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 45px;
+
+}
+.feature-list{
+    width: 85%;
+    margin: 5px;
+    box-shadow:  5px 5px 5px 5px whitesmoke;
+
+    
+    
+    
+    
+}
+.four{
+    font-size: 18px;
+    padding: 8px;
+
+}
+.four-descrip{
+    color: #727272;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 12px;
+
+}
+.third-btn{
+    background: rgb(255, 123, 0);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 20px;
+    
+    transform: translate(-50px, -50px)
+    
+}
+.ten{
+    font-size: 38px;
+    font-weight: 600;
+   
+}
+
+/* -------------------section three------------------- */
+
+
+
+.box{
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+ 
+    gap: 60px;
+    
+}
+.facts{
+    padding: 20px 40px 50px 0px;
+    
+}
+.facts-title{
+    font-size: 38px;
+    font-weight: 700;
+}
+.facts-descrip ,.name{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+.number{
+    font-size: 38px;240
+    font-weight: 800;
+   
+
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 220px;
+    height: 220px;
+    border: 1px solid #FF900E;
+    border-radius: 7px;
+    transition: width 1s , height 1s, transform 1s;
+    
+}
+.icons img{
+    width: 40px;
+    height: 40px;
+}
+.icons:hover{
+    width: 245px;
+    height: 245px;
+    transform: rotate(360deg);
+
+}
+
+/* ------------------section four-------------- */
+.sponsor{
+    padding: 50px 50px;
+}
+
+.last-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+.last-descrip{
+    text-align: center;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.company-name{
+    display: flex;
+    gap: 80px;
+    padding: 40px 20px;
+}
+.footer-des{
+    font-size: 19px;
+    font-weight: 400;
+    color: #424242;
+    text-align: center;
+    
+background: #FFF4E7;
+border-radius: 8px;
+margin: 50px 100px;
+padding: 30px 0px 30px 0px;
+
+}
+
+
+
+
+
+
+
